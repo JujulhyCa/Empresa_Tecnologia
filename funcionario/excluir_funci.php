@@ -2,7 +2,7 @@
     require_once("../cabecalho.html");
 ?>
 
-    <h3>Excluir Produto</h3>
+    <h3>Excluir Funcionário</h3>
     <form>
         <div class="row">
             <div class="col">
@@ -12,26 +12,17 @@
         </div>
         <div class="row">
             <div class="col">
-                <label for="descricao" class="form-label">Informe a descrição</label>
-                <input type="text" class="form-control"     name="descricao" disabled>
+                <label for="descricao" class="form-label">Informe o cargo</label>
+                <input type="text" class="form-control"     name="cargo" disabled>
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <label for="valor" class="form-label">Informe o valor</label>
-                <input type="text" class="form-control"     name="valor" disabled>
+                <label for="valor" class="form-label">Informe o departamento</label>
+                <input type="text" class="form-control"     name="departamento" disabled>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-                <label for="categoria" class="form-label"> Selecione a categoria</label>
-                <select class="form-select" name="categoria" disabled>
-                    <option value="1">Categoria 1</option>
-                    <option value="2">Categoria 2</option>
-                    <option value="3">Categoria 3</option>
-                </select>
-            </div>
-        </div>
+        
         <div class="row">
             <div class="col">
                 <p>Deseja realmente excluir?</p>

@@ -4,15 +4,14 @@
 
     <h3>Gerenciamento de Funcionários</h3>
 
-    <a href="inserir_produto.php" class="btn btn-primary mt-3">Adicionar Funcionário</a>
+    <a href="inserir_funci.php" class="btn btn-primary mt-3">Adicionar Funcionário</a>
 
     <table class="mt-3 table table-hover table-striped">
         <thead>
             <tr>
                 <th>Nome</th>
-                <th>Descrição</th>
-                <th>Valor</th>
-                <th>Categoria</th>
+                <th>Cargo</th>
+                <th>Departamento</th>
             </tr>
         </thead>
         <tbody>
@@ -23,14 +22,13 @@
             ?>
             <tr>
                 <td><?= $l['nome'] ?></td>
-                <td><?= $l['descricao'] ?></td>
-                <td><?= $l['valor'] ?></td>
-                <td><?= $l['categoria'] ?></td>
+                <td><?= $l['cargo'] ?></td>
+                <td><?= $l['departamento'] ?></td>
                 <td>
-                    <a href="alterar_produto.php?id=<?=$l['id'] ?>" class="btn btn-warning">
+                    <a href="alterar_funci.php?id=<?=$l['id_funci'] ?>" class="btn btn-warning">
                         Alterar
                     </a>
-                    <a href="excluir_produto.php?id=<?=$l['id'] ?>" class="btn btn-danger">
+                    <a href="excluir_funci.php?id=<?=$l['id_funci'] ?>" class="btn btn-danger">
                         Excluir
                     </a>
                 </td>
