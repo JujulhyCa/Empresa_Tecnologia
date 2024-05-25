@@ -17,7 +17,7 @@
         </thead>
         <tbody>
             <?php 
-                $linhas = retornarProdutos();
+                $linhas = retornarFunci();
                 while ($l = $linhas->fetch(PDO::FETCH_ASSOC)){ // fecha o { lá embaixo
 
             ?>

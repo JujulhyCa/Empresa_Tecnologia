@@ -13,16 +13,15 @@
         <div class="row">
             <div class="col">
                 <label for="descricao" class="form-label">Informe o telefone</label>
-                <input type="text" class="form-control"     name="descricao">
+                <input type="text" class="form-control"     name="telefone">
             </div>
         </div>
         <div class="row">
             <div class="col">
                 <label for="valor" class="form-label">Informe o e-mail</label>
-                <input type="text" class="form-control"     name="valor">
+                <input type="text" class="form-control"     name="email">
             </div>
         </div>
-       
         <div class="row">
             <div class="col">
                 <button type="submit" class="btn btn-success">
