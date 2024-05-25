@@ -7,7 +7,7 @@
             return $conexao;
         }
 
-        /*function retornarProduto(){ // Vai usar isto em tarefa para conectar 
+        /*function retornarProduto(){ // Vai usar isto em TEREFA para conectar às outras tabelas
             try {
                 $sql = "SELECT p.*, c.descricao as categoria FROM produto p INNER JOIN categoria c ON c.id = p.categoria_id";
                 $conexao = conectarBanco();
@@ -33,12 +33,12 @@
             } # finally { } - finalizar a conexão com o banco de dados é opcional
         }
 
-        /*function retornarCategorias(){
+        function retornarCliente(){
             try {
-                $sql = "SELECT * FROM categoria";
+                $sql = "SELECT * FROM cliente";
                 $conexao = conectarBanco();
                 return $conexao->query($sql); // objeto.metodo em php usa-se a flechinha objeto->metodo
             } catch (Exception $e) {
                 return 0;
             }
-        }*/
+        }

@@ -39,7 +39,7 @@
         $telefone = $_POST['telefone'];
         $email = $_POST['email'];
         if ($nome!= "" && $telefone !="" && $email != ""){
-            if (inserirProduto($nome,$telefone,$email)){
+            if (inserirCliente($nome, $telefone, $email)){
                 echo "Cliente inserido com sucesso.";
             } else {
                 echo "Erro ao inserir o cliente.";

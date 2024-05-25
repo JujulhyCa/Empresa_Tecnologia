@@ -16,7 +16,7 @@
         </thead>
         <tbody>
             <?php 
-                $linhas = retornarClientes(); // criar função
+                $linhas = retornarCliente(); // criar função
                 while ($l = $linhas->fetch(PDO::FETCH_ASSOC)){ // fecha o { lá embaixo
 
             ?>
