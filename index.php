@@ -2,7 +2,7 @@
     require_once("cabecalho.html");
 ?>
 
-    <h1>Sistema PHP + MySql</h1>
+    <h1>Sistema para Empresa de Tecnologia</h1>
 
 <?php
     require_once("rodape.html");
