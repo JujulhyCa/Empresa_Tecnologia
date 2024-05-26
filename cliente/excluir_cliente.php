@@ -18,7 +18,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <label for="valor" class="form-label">Informe o e-mail</label>
+                <label for="valor" class="form-label"><email>Informe o e-mail</email></label>
                 <input type="text" class="form-control"     name="email" disabled>
             </div>
         </div>

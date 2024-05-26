@@ -7,19 +7,19 @@
         <div class="row">
             <div class="col">
                 <label for="nome" class="form-label">Informe o nome</label>
-                <input type="text" class="form-control"     name="nome">
+                <input type="text" class="form-control" name="nome">
             </div>
         </div>
         <div class="row">
             <div class="col">
                 <label for="descricao" class="form-label">Informe o cargo</label>
-                <input type="text" class="form-control"     name="descricao">
+                <input type="text" class="form-control" name="cargo">
             </div>
         </div>
         <div class="row">
             <div class="col">
                 <label for="valor" class="form-label">Informe o departamento</label>
-                <input type="text" class="form-control"     name="valor">
+                <input type="text" class="form-control" name="departamento">
             </div>
         </div>
         
