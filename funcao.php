@@ -68,3 +68,29 @@
                 return 0;
             }
         }
+
+        function inserirProjeto($nome, $descricao, $data_inicio){
+            try {
+            $sql = "INSERT INTO produto (nome, descricao, data_inicio)
+            VALUES (:nome, :descricao, :data_inicio)"; // atribuindo apelidos às variáveis por segurança, para evitar injeção de SQL
+            $conexao = conectarBanco();
+            $stmt = $conexao->prepare($sql);
+            $stmt->bindValue(":nome", $nome); // bindValue troca nomes dos apelidos das variáveis e atribuem valores
+            $stmt->bindValue(":descricao", $descricao);
+            $stmt->bindValue(":data_inicio", $data_inicio);
+            return $stmt->execute();
+
+            } catch (Exception $e) {
+                return 0;
+            } # finally { } - finalizar a conexão com o banco de dados é opcional
+        }
+
+        function retornarProjeto(){
+            try {
+                $sql = "SELECT * FROM projeto";
+                $conexao = conectarBanco();
+                return $conexao->query($sql); // objeto.metodo em php usa-se a flechinha objeto->metodo
+            } catch (Exception $e) {
+                return 0;
+            }
+        }
