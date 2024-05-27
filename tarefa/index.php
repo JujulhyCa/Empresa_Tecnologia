@@ -1,0 +1,1 @@
+//tarefa: id_tarefa (PK), nome_tarefa, data_conclusao, id_projeto(FK), id_func(FK);
