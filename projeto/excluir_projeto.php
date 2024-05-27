@@ -2,24 +2,24 @@
     require_once("../cabecalho.html");
 ?>
 
-    <h3>Excluir Funcionário</h3>
+    <h3>Excluir Projeto</h3>
     <form>
         <div class="row">
             <div class="col">
-                <label for="nome" class="form-label">Informe o nome</label>
+                <label for="nome" class="form-label">Informe o nome do projeto:</label>
                 <input type="text" class="form-control" name="nome" disabled>
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <label for="descricao" class="form-label">Informe o cargo</label>
-                <input type="text" class="form-control" name="cargo" disabled>
+                <label for="descricao" class="form-label">Descreva o projeto:</label>
+                <input type="text" class="form-control" name="descricao" disabled>
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <label for="valor" class="form-label">Informe o departamento</label>
-                <input type="text" class="form-control" name="departamento" disabled>
+                <label for="valor" class="form-label"><email>Data de início:</email></label>
+                <input type="text" class="form-control" name="data_inicio" disabled>
             </div>
         </div>
         
