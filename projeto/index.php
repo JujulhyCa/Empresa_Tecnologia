@@ -4,7 +4,7 @@
 
     <h3>Gerenciamento de Projetos</h3>
 
-    <a href="inserir_cliente.php" class="btn btn-primary mt-3">Adicionar Projeto</a>
+    <a href="inserir_projeto.php" class="btn btn-primary mt-3">Adicionar Projeto</a>
 
     <table class="mt-3 table table-hover table-striped">
         <thead>
